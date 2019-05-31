@@ -1,5 +1,5 @@
 
-# SVM's Introduction
+# SVM Introduction
 
 ## Introduction
 
