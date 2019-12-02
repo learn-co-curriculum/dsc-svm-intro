@@ -1,21 +1,13 @@
 
-# SVM Introduction
+# Support Vector Machines - Introduction
 
 ## Introduction
 
-SVM stands for support vector machines. These are a type of classifier which modifies the loss function for optimization to not only take into account overall accuracy metrics of the resulting predictions, but aims to maximize the decision boundary between the data points. In essence, this further helps tune the classifier as a good balance between under-fitting and over-fitting.
-
-## Objectives
-
-You will be able to:
-
-* Define SVM
-* Give a high level overview of what SVMs are
-* Define and explain about Kernel Functions
+Support Vector Machine (SVM) is a type of classifier which modifies the loss function for optimization to not only take into account overall accuracy metrics of the resulting predictions, but aims to maximize the decision boundary between the data points. In essence, this further helps tune the classifier as a good balance between underfitting and overfitting.
 
 ## Support Vector Machines
 
-In addition to optimizing for accuracy, support vector machines add a slack component, trading in accuracy to increase the distance between data point and the decision boundary. This provides an interesting perspective which can help formalize the intuitive visual choices a human would make in balancing precision and generalization to strike a balance between over-fitting and under-fitting.
+In addition to optimizing for accuracy, support vector machines add a slack component, trading in accuracy to increase the distance between data point and the decision boundary. This provides an interesting perspective which can help formalize the intuitive visual choices a human would make in balancing precision and generalization to strike a balance between overfitting and underfitting.
 
 
 ## Kernel Functions
@@ -24,4 +16,4 @@ Initially, you'll explore linear support vector machines which divide data point
 
 ## Summary
 
-While it may appear that this section is a bit brief, Support Vector Machines are a powerful algorithm that deserve attention. In many cases, SVMs will have the top performance of out of the box classifiers from sci-kit learn. Moreover, learning to properly tune SVMs using kernels and an appropriate c value is critical. In the upcoming labs and lessons you'll further investigate and apply these concepts.
+Support Vector Machines are a powerful algorithm and may have the top performance among the out of the box classifiers from scikit-learn. Moreover, learning to properly tune SVMs is critical. In the upcoming labs and lessons you'll investigate and apply these concepts.
